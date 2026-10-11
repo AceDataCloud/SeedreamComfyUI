@@ -1,0 +1,18 @@
+[project]
+name = "seedream"
+version = "0.1.0"
+description = "Seedream Dify-parity tools through Ace Data Cloud for ComfyUI"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+dependencies = ["requests>=2.31,<3", "jsonschema>=4,<5"]
+classifiers = ["Operating System :: OS Independent"]
+
+[project.urls]
+Repository = "https://github.com/AceDataCloud/SeedreamComfyUI"
+Documentation = "https://github.com/AceDataCloud/SeedreamComfyUI#readme"
+"Bug Tracker" = "https://github.com/AceDataCloud/SeedreamComfyUI/issues"
+
+[tool.comfy]
+PublisherId = "acedatacloud"
+DisplayName = "Seedream by Ace Data Cloud"
+Icon = "https://raw.githubusercontent.com/AceDataCloud/SeedreamComfyUI/main/assets/logo-400.png"
